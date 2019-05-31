@@ -29,6 +29,7 @@ namespace DatabaseFirst.ViewModels
             }
         }
 
+        public int MyProperty { get; set; }
         private ObservableCollection<User> allUsers;
         public ObservableCollection<User> AllUsers
         {
