@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:DatabaseFirst"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Name="MainGrid">
+        <StackPanel>
+            <Button Content="Users" Width="150" Height="50" Margin="0 100 0 0" Command="{Binding ShowUsersCommand}"/>
+            <Button Content="News" Width="150" Height="50" Margin="0 20 0 0" Command="{Binding ShowNewsCommand}"/>
+            <Button Content="Comments" Width="150" Height="50" Margin="0 20 0 0" Command="{Binding ShowUsersCommand}"/>
+        </StackPanel>
     </Grid>
 </Window>
